@@ -1,0 +1,52 @@
+.mobile-menu {
+  padding: 24px;
+}
+
+.mobile-menu a {
+  text-decoration: none;
+  color: var(--black);
+  font-weight: bold;
+}
+
+.mobile-menu ul {
+  padding: 0;
+  margin: 24px 0 0;
+  list-style: none;
+}
+
+.mobile-menu ul:nth-child(1) {
+  border-bottom: 1px solid var(--very-light-pink);
+}
+
+.mobile-menu ul:nth-child(2){
+  margin-top: 35px;
+}
+
+.mobile-menu ul:last-child {
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 20px;
+}
+
+.mobile-menu ul:nth-last-child(1) li {
+  margin-bottom: 8px;
+}
+
+.mobile-menu ul:nth-last-child(3) li:last-child {
+  margin-bottom: 35px;
+}
+
+.mobile-menu ul li {
+  margin-bottom: 24px;
+}
+
+.mobile-menu .email {
+font-size: var(--sm);
+font-weight: 300;
+}
+
+.mobile-menu .sign-out {
+  font-size: var(--sm);
+  color: var(--hospital-green);
+}
+
