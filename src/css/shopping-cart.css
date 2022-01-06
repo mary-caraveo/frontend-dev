@@ -10,6 +10,10 @@
   display: flex;
 }
 
+.title-container a:hover {
+  transform: scale(1.2);
+}
+
 .title-container img {
   transform: rotate(180deg);
   margin-right: 14px;
@@ -26,6 +30,15 @@
   gap: 16px;
   margin-bottom: 24px;
   align-items: center;
+}
+
+.shopping-cart .icon-close:hover {
+  transform: scale(1.2);
+  background-color: crimson;
+  width: 15px;
+  height: 15px;
+  border-radius: 5px;
+  padding: 2px;
 }
 
 .shopping-cart figure {
