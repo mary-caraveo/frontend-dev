@@ -30,13 +30,13 @@ nav {
 }
 
 .logo {
-  height: 40px;
-  padding-top: 10px;
-}
+    height: 40px;
+    padding-top: 10px;
+  }
 
 .logo:hover {
-  transform: scale(1.1);
-}
+    transform: scale(1.1);
+  }
 
 .navbar-left ul,
 .navbar-right ul {
@@ -199,16 +199,19 @@ nav {
 }
 
 .value {
+  background-color: var(--text-input-field);
   color: var(--very-light-pink);
   font-size: var(--md);
-  margin: 8px 0 32px 0;
+  border-radius: 10px;
+  margin: 10px 0;
+  padding: 10px;
 }
 
 .secondary-button {
-  background-color: var(--white);
+  background-color: var(--hospital-green);
   border-radius: 8px;
   border: 1px solid var(--hospital-green);
-  color: var(--hospital-green);
+  color: var(--white);
   width: 100%;
   cursor: pointer;
   font-size: var(--md);
