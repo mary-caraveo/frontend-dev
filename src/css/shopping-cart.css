@@ -17,6 +17,7 @@
 .title-container img {
   transform: rotate(180deg);
   margin-right: 14px;
+  width: 15px;
 }
 
 .title {
