@@ -12,6 +12,10 @@
   justify-items: center;
 }
 
+.form-container a {
+  width: 100%;
+}
+
 .logo {
   width: 100px;
   margin-bottom: 20px;
