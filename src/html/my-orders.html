@@ -1,150 +1,160 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/src/css/navbar.css">
+    <link rel="stylesheet" href="/src/css/my-orders.css">
+    <link rel="stylesheet" href="/src/css/global.css">
+    <link rel="stylesheet" href="/src/css/menu-desktop.css">
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="/src/css/navbar.css">
-  <link rel="stylesheet" href="/src/css/my-orders.css">
-  <link rel="stylesheet" href="/src/css/global.css">
-  <link rel="stylesheet" href="/src/css/menu-desktop.css">
+    <title>My orders</title>
+  </head>
 
-  <title>My orders</title>
-</head>
-
-<body>
-  <nav>
-    <a class="menu" href="/src/html/menu-mobile.html">
-      <img class="menu" src="/src/assets/icons/icon_menu.svg" alt="menu" />
-    </a>
-
-    <div class="navbar-left">
-      <a href="/index.html">
-        <img class="logo" src="/src/assets/logo/logo.png" alt="logo" />
+  <body>
+    <nav>
+      <a class="menu" href="/src/html/menu-mobile.html">
+        <img class="menu" src="/src/assets/icons/icon_menu.svg" alt="menu" />
       </a>
-      <ul>
-        <li><a href="#">All</a></li>
-        <li><a href="#">Clothes</a></li>
-        <li><a href="#">Electronics</a></li>
-        <li><a href="#">Furnitures</a></li>
-        <li><a href="#">Toys</a></li>
-        <li><a href="#">Others</a></li>
-      </ul>
-    </div>
 
-    <div class="navbar-right">
-      <ul>
-        <li class="navbar-email"><a id="modal-over" href="#overlay">ejemplo94@gmail.com</a></li>
-        <li class="navbar-email"><a id="home-modal" href="#overlay">ejemplo94@gmail.com</a></li>
-        <li class="navbar-shopping-cart">
-          <a href="/src/html/shopping-cart.html">
-          <img src="/src/assets/icons/icon_shopping_cart.svg" alt="shopping cart" />
-          </a>
-          <div>2</div>
-        </li>
-      </ul>
-    </div>
-  </nav>
-
-  <div id="overlay" class="desktop-menu modal">
-    <ul>
-      <li><a class="title" href="/src/html/my-orders.html">My orders</a></li>
-      <li><a href="/src/html/edit-account.html">My account</a></li>
-      <li><a href="/src/html/login.html">Sign out</a></li>
-    </ul>
-  </div>
-
-  <!-- My orders -->
-  <div class="my-order">
-    <div class="my-order-container">
-      <h1 class="title">My orders</h1>
-      <div class="my-order-content">
-        <div class="order">
-          <p>
-            <span>10.16.21</span>
-            <span>6 articles</span>
-          </p>
-
-          <p>
-            <span>$560.00</span>
-          </p>
-        </div>
-
-        <div class="shopping-cart">
-          <figure>
-            <img
-              src="https://images.pexels.com/photos/4551567/pexels-photo-4551567.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
-              alt="food" />
-          </figure>
-          <p>Food</p>
-          <p>$30,00</p>
-        </div>
-
-        <div class="shopping-cart">
-          <figure>
-            <img
-              src="https://images.pexels.com/photos/5946056/pexels-photo-5946056.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
-              alt="food" />
-          </figure>
-          <p>Food</p>
-          <p>$30,00</p>
-        </div>
-
-        <div class="shopping-cart">
-          <figure>
-            <img
-              src="https://images.pexels.com/photos/4220142/pexels-photo-4220142.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
-              alt="food" />
-          </figure>
-          <p>Food</p>
-          <p>$30,00</p>
-        </div>
-
-        <div class="shopping-cart">
-          <figure>
-            <img
-              src="https://images.pexels.com/photos/4375373/pexels-photo-4375373.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
-              alt="food" />
-          </figure>
-          <p>Food</p>
-          <p>$30,00</p>
-        </div>
-
-        <div class="shopping-cart">
-          <figure>
-            <img
-              src="https://images.pexels.com/photos/4022105/pexels-photo-4022105.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
-              alt="food" />
-          </figure>
-          <p>Food</p>
-          <p>$30,00</p>
-        </div>
-
-        <div class="shopping-cart">
-          <figure>
-            <img
-              src="https://images.pexels.com/photos/827516/pexels-photo-827516.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
-              alt="food" />
-          </figure>
-          <p>Food</p>
-          <p>$30,00</p>
-        </div>
-
-        <div class="shopping-cart">
-          <figure>
-            <img
-              src="https://images.pexels.com/photos/1484512/pexels-photo-1484512.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
-              alt="food" />
-          </figure>
-          <p>Food</p>
-          <p>$30,00</p>
-        </div>
-
+      <div class="navbar-left">
+        <a href="/index.html">
+          <img class="logo" src="/src/assets/logo/logo.png" alt="logo" />
+        </a>
+        <ul>
+          <li><a href="#">All</a></li>
+          <li><a href="#">Clothes</a></li>
+          <li><a href="#">Electronics</a></li>
+          <li><a href="#">Furnitures</a></li>
+          <li><a href="#">Toys</a></li>
+          <li><a href="#">Others</a></li>
+        </ul>
       </div>
 
-    </div>
-  </div>
-</body>
+      <div class="navbar-right">
+        <ul>
+          <li class="navbar-email">
+            <a id="modal-over" href="#overlay">ejemplo94@gmail.com</a>
+          </li>
+          <li class="navbar-email">
+            <a id="home-modal" href="#overlay">ejemplo94@gmail.com</a>
+          </li>
+          <li class="navbar-shopping-cart">
+            <a href="/src/html/shopping-cart.html">
+              <img
+                src="/src/assets/icons/icon_shopping_cart.svg"
+                alt="shopping cart"
+              />
+            </a>
+            <div>2</div>
+          </li>
+        </ul>
+      </div>
+    </nav>
 
+    <div id="overlay" class="desktop-menu modal">
+      <ul>
+        <li><a class="title" href="/src/html/orders.html">My orders</a></li>
+        <li><a href="/src/html/edit-account.html">My account</a></li>
+        <li><a href="/src/html/login.html">Sign out</a></li>
+      </ul>
+    </div>
+
+    <!-- My orders -->
+    <div class="my-order">
+      <div class="my-order-container">
+        <h1 class="title">My orders</h1>
+        <div class="my-order-content">
+          <div class="order">
+            <p>
+              <span>10.16.21</span>
+              <span>6 articles</span>
+            </p>
+
+            <p>
+              <span>$560.00</span>
+            </p>
+          </div>
+
+          <div class="shopping-cart">
+            <figure>
+              <img
+                src="https://images.pexels.com/photos/4551567/pexels-photo-4551567.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                alt="food"
+              />
+            </figure>
+            <p>Food</p>
+            <p>$30,00</p>
+          </div>
+
+          <div class="shopping-cart">
+            <figure>
+              <img
+                src="https://images.pexels.com/photos/5946056/pexels-photo-5946056.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                alt="food"
+              />
+            </figure>
+            <p>Food</p>
+            <p>$30,00</p>
+          </div>
+
+          <div class="shopping-cart">
+            <figure>
+              <img
+                src="https://images.pexels.com/photos/4220142/pexels-photo-4220142.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                alt="food"
+              />
+            </figure>
+            <p>Food</p>
+            <p>$30,00</p>
+          </div>
+
+          <div class="shopping-cart">
+            <figure>
+              <img
+                src="https://images.pexels.com/photos/4375373/pexels-photo-4375373.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                alt="food"
+              />
+            </figure>
+            <p>Food</p>
+            <p>$30,00</p>
+          </div>
+
+          <div class="shopping-cart">
+            <figure>
+              <img
+                src="https://images.pexels.com/photos/4022105/pexels-photo-4022105.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                alt="food"
+              />
+            </figure>
+            <p>Food</p>
+            <p>$30,00</p>
+          </div>
+
+          <div class="shopping-cart">
+            <figure>
+              <img
+                src="https://images.pexels.com/photos/827516/pexels-photo-827516.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                alt="food"
+              />
+            </figure>
+            <p>Food</p>
+            <p>$30,00</p>
+          </div>
+
+          <div class="shopping-cart">
+            <figure>
+              <img
+                src="https://images.pexels.com/photos/1484512/pexels-photo-1484512.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                alt="food"
+              />
+            </figure>
+            <p>Food</p>
+            <p>$30,00</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>

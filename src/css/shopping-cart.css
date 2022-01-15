@@ -1,3 +1,7 @@
+body {
+  overflow-y: scroll;
+}
+
 .product-detail {
   position: absolute;
   box-sizing: border-box;

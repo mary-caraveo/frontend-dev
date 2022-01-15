@@ -84,4 +84,8 @@
   .navbar-email {
     display: none;
   }
+
+  .login {
+    height: 0;
+  }
 }

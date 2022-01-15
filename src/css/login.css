@@ -12,10 +12,10 @@
 }
 
 .logo {
-  width: 100px;
-  margin-bottom: 20px;
-  justify-self: center;
   display: none;
+  justify-self: center;
+  margin-bottom: 20px;
+  width: 100px;
 }
 
 .form {
@@ -28,7 +28,7 @@
   font-size: var(--sm);
   text-align: center;
   text-decoration: none;
-  margin-bottom: 52px;
+  padding-bottom: 35px;
 }
 
 .label {
