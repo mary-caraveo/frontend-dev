@@ -79,3 +79,9 @@
   font-size: var(--md);
   font-weight: bold;
 }
+
+@media (max-width: 640px) {
+  body {
+    overflow-y: scroll;
+  }
+}

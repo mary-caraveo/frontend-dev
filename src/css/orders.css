@@ -47,3 +47,9 @@
   font-size: var(--sm);
   color: var(--very-light-pink);
 }
+
+@media (max-width: 640px) {
+  body {
+    overflow-y: scroll;
+  }
+}
