@@ -48,6 +48,7 @@
   font-size: var(--md);
   padding: 6px;
   margin-bottom: 12px;
+  outline-color: var(--hospital-green);
 }
 
 .input-name,
@@ -66,6 +67,12 @@
   font-size: var(--md);
   font-weight: bold;
   height: 40px;
+}
+
+.primary-button:hover {
+  background-color: var(--white);
+  border: 1px solid var(--hospital-green);
+  color: var(--hospital-green);
 }
 
 .login-button {

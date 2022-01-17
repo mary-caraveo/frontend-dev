@@ -46,7 +46,7 @@ nav {
 }
 
 .navbar-left ul li a:hover,
-.navbar-right ul li a:hover {
+.navbar-right ul li .shopping-cart:hover {
   border: 1px solid var(--hospital-green);
   color: var(--hospital-green);
 }

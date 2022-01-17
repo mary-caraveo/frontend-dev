@@ -54,6 +54,11 @@
   height: 40px;
 }
 
+.secondary-button:hover {
+  background-color: var(--white);
+  color:  var(--hospital-green);
+}
+
 .login-button {
   margin-top: 40px;
   margin-bottom: 30px;

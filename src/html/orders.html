@@ -1,148 +1,147 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/src/css/navbar.css">
-    <link rel="stylesheet" href="/src/css/orders.css">
-    <link rel="stylesheet" href="/src/css/global.css">
-    <link rel="stylesheet" href="/src/css/menu-desktop.css">
-    <title>My orders</title>
-  </head>
 
-  <body>
-    <nav>
-      <a class="menu" href="/src/html/menu-mobile.html">
-        <img class="menu" src="/src/assets/icons/icon_menu.svg" alt="menu" />
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/src/css/navbar.css">
+  <link rel="stylesheet" href="/src/css/orders.css">
+  <link rel="stylesheet" href="/src/css/global.css">
+  <link rel="stylesheet" href="/src/css/menu-desktop.css">
+  <title>My orders</title>
+</head>
+
+<body>
+  <nav>
+    <a class="menu" href="/src/html/menu-mobile.html">
+      <img class="menu" src="/src/assets/icons/icon_menu.svg" alt="menu" />
+    </a>
+
+    <div class="navbar-left">
+      <a href="/index.html">
+        <img class="logo" src="/src/assets/logo/logo.png" alt="logo" />
       </a>
 
-      <div class="navbar-left">
-        <a href="/index.html">
-          <img class="logo" src="/src/assets/logo/logo.png" alt="logo" />
-        </a>
-
-        <ul>
-          <li><a href="#">All</a></li>
-          <li><a href="#">Clothes</a></li>
-          <li><a href="#">Electronics</a></li>
-          <li><a href="#">Furnitures</a></li>
-          <li><a href="#">Toys</a></li>
-          <li><a href="#">Others</a></li>
-        </ul>
-      </div>
-
-      <div class="navbar-right">
-        <ul>
-          <li class="navbar-email">
-            <a id="modal-over" href="#overlay">ejemplo94@gmail.com</a>
-          </li>
-          <li class="navbar-email">
-            <a id="home-modal" href="#overlay">ejemplo94@gmail.com</a>
-          </li>
-          <li class="navbar-shopping-cart">
-            <a href="/src/html/shopping-cart.html">
-              <img
-                src="/src/assets/icons/icon_shopping_cart.svg"
-                alt="shopping cart"
-              />
-            </a>
-            <div>2</div>
-          </li>
-        </ul>
-      </div>
-    </nav>
-
-    <div id="overlay" class="desktop-menu modal">
       <ul>
-        <li><a class="title" href="/src/html/orders.html">My orders</a></li>
-        <li><a href="/src/html/edit-account.html">My account</a></li>
-        <li><a href="/src/html/login.html">Sign out</a></li>
+        <li><a href="#">All</a></li>
+        <li><a href="#">Clothes</a></li>
+        <li><a href="#">Electronics</a></li>
+        <li><a href="#">Furnitures</a></li>
+        <li><a href="#">Toys</a></li>
+        <li><a href="#">Others</a></li>
       </ul>
     </div>
-    <div class="my-order">
-      <div class="my-order-container">
-        <h1 class="title">My orders</h1>
-        <div class="my-order-content">
-          <div class="order">
-            <p>
-              <span>10.16.2021</span>
-              <span>6 articles</span>
-            </p>
 
-            <p>$560.00</p>
-            <a href="/src/html/my-orders.html">
-              <img src="/src/assets/icons/flechita.svg" alt="arrow" />
-            </a>
-          </div>
-          <div class="order">
-            <p>
-              <span>10.16.2021</span>
-              <span>6 articles</span>
-            </p>
+    <div class="navbar-right">
+      <ul>
+        <li class="navbar-email">
+          <a class="shopping-cart" id="modal-over" href="#overlay">ejemplo94@gmail.com</a>
+        </li>
+        <li class="navbar-email">
+          <a class="shopping-cart" id="home-modal" href="#overlay">ejemplo94@gmail.com</a>
+        </li>
+        <li class="navbar-shopping-cart">
+          <a href="/src/html/shopping-cart.html">
+            <img src="/src/assets/icons/icon_shopping_cart.svg" alt="shopping cart" />
+          </a>
+          <div>2</div>
+        </li>
+      </ul>
+    </div>
+  </nav>
 
-            <p>$560.00</p>
-            <a href="/src/html/my-orders.html">
-              <img src="/src/assets/icons/flechita.svg" alt="arrow" />
-            </a>
-          </div>
-          <div class="order">
-            <p>
-              <span>10.16.2021</span>
-              <span>6 articles</span>
-            </p>
+  <div id="overlay" class="desktop-menu modal">
+    <ul>
+      <li><a class="title" href="/src/html/orders.html">My orders</a></li>
+      <li><a href="/src/html/edit-account.html">My account</a></li>
+      <li><a href="/src/html/login.html">Sign out</a></li>
+    </ul>
+  </div>
+  <div class="my-order">
+    <div class="my-order-container">
+      <h1 class="title">My orders</h1>
+      <div class="my-order-content">
+        <div class="order">
+          <p>
+            <span>10.16.2021</span>
+            <span>6 articles</span>
+          </p>
 
-            <p>$560.00</p>
-            <a href="/src/html/my-orders.html">
-              <img src="/src/assets/icons/flechita.svg" alt="arrow" />
-            </a>
-          </div>
-          <div class="order">
-            <p>
-              <span>10.16.2021</span>
-              <span>6 articles</span>
-            </p>
+          <p>$560.00</p>
+          <a class="arrow-orders" href="/src/html/my-orders.html">
+            <img src="/src/assets/icons/flechita.svg" alt="arrow" />
+          </a>
+        </div>
+        <div class="order">
+          <p>
+            <span>10.16.2021</span>
+            <span>6 articles</span>
+          </p>
 
-            <p>$560.00</p>
-            <a href="/src/html/my-orders.html">
-              <img src="/src/assets/icons/flechita.svg" alt="arrow" />
-            </a>
-          </div>
-          <div class="order">
-            <p>
-              <span>10.16.2021</span>
-              <span>6 articles</span>
-            </p>
+          <p>$560.00</p>
+          <a class="arrow-orders" href="/src/html/my-orders.html">
+            <img src="/src/assets/icons/flechita.svg" alt="arrow" />
+          </a>
+        </div>
+        <div class="order">
+          <p>
+            <span>10.16.2021</span>
+            <span>6 articles</span>
+          </p>
 
-            <p>$560.00</p>
-            <a href="/src/html/my-orders.html">
-              <img src="/src/assets/icons/flechita.svg" alt="arrow" />
-            </a>
-          </div>
-          <div class="order">
-            <p>
-              <span>10.16.2021</span>
-              <span>6 articles</span>
-            </p>
+          <p>$560.00</p>
+          <a class="arrow-orders" href="/src/html/my-orders.html">
+            <img src="/src/assets/icons/flechita.svg" alt="arrow" />
+          </a>
+        </div>
+        <div class="order">
+          <p>
+            <span>10.16.2021</span>
+            <span>6 articles</span>
+          </p>
 
-            <p>$560.00</p>
-            <a href="/src/html/my-orders.html">
-              <img src="/src/assets/icons/flechita.svg" alt="arrow" />
-            </a>
-          </div>
-          <div class="order">
-            <p>
-              <span>10.16.2021</span>
-              <span>6 articles</span>
-            </p>
+          <p>$560.00</p>
+          <a class="arrow-orders" href="/src/html/my-orders.html">
+            <img src="/src/assets/icons/flechita.svg" alt="arrow" />
+          </a>
+        </div>
+        <div class="order">
+          <p>
+            <span>10.16.2021</span>
+            <span>6 articles</span>
+          </p>
 
-            <p>$560.00</p>
-            <a href="/src/html/my-orders.html">
-              <img src="/src/assets/icons/flechita.svg" alt="arrow" />
-            </a>
-          </div>
+          <p>$560.00</p>
+          <a class="arrow-orders" href="/src/html/my-orders.html">
+            <img src="/src/assets/icons/flechita.svg" alt="arrow" />
+          </a>
+        </div>
+        <div class="order">
+          <p>
+            <span>10.16.2021</span>
+            <span>6 articles</span>
+          </p>
+
+          <p>$560.00</p>
+          <a class="arrow-orders" href="/src/html/my-orders.html">
+            <img src="/src/assets/icons/flechita.svg" alt="arrow" />
+          </a>
+        </div>
+        <div class="order">
+          <p>
+            <span>10.16.2021</span>
+            <span>6 articles</span>
+          </p>
+
+          <p>$560.00</p>
+          <a class="arrow-orders" href="/src/html/my-orders.html">
+            <img src="/src/assets/icons/flechita.svg" alt="arrow" />
+          </a>
         </div>
       </div>
     </div>
-  </body>
+  </div>
+</body>
+
 </html>

@@ -39,6 +39,10 @@
   margin-bottom: 20px;
 }
 
+.desktop-menu ul li a:hover {
+  transform: scale(1.1);
+}
+
 .modal {
   background-color: var(--white);
   position: absolute;
