@@ -50,3 +50,7 @@ font-weight: 300;
   color: var(--hospital-green);
 }
 
+.close-menu {
+  display: flex;
+  justify-content: flex-end;
+}
