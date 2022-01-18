@@ -7,7 +7,7 @@
 
 .title {
   font-size: var(--lg);
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 
 .my-order-container {
@@ -26,6 +26,8 @@
   grid-template-columns: auto 1fr auto;
   gap: 16px;
   align-items: center;
+  padding-top: 12px;
+  border-bottom: 1px solid #d3d2d2b8;
 }
 
 .order p:nth-child(1) {

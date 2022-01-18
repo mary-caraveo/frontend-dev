@@ -1,5 +1,5 @@
 body {
-overflow: hidden;
+  overflow: hidden;
 }
 
 .my-order {
@@ -23,6 +23,11 @@ overflow: hidden;
 .my-order-content {
   display: flex;
   flex-direction: column;
+}
+
+.my-order-content a {
+  text-decoration: none;
+  color: black;
 }
 
 .order {
@@ -61,6 +66,8 @@ overflow: hidden;
   grid-template-columns: auto 1fr auto auto;
   gap: 16px;
   align-items: center;
+  padding-top: 12px;
+  border-bottom: 1px solid #d3d2d2b8;
 }
 
 .shopping-cart figure {
