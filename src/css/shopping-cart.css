@@ -104,6 +104,10 @@ body {
   height: 40px;
 }
 
+.primary-button:hover {
+  transform: scale(1.1);
+ }
+ 
 @media (max-width: 640px) {
   .product-detail {
     width: 100%;
