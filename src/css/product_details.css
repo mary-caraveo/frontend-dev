@@ -1,6 +1,11 @@
+.product-detail-container{
+  display: grid;
+  place-items: center;
+  width: 100%;
+}
+
 .product-detail {
-  position: absolute;
-  right: 0;
+  position: relative;
   width: 360px;
   padding-bottom: 24px;
 }
@@ -9,12 +14,16 @@
   position: absolute;
   background: var(--white);
   border-radius: 50%;
-  top: 12px;
-  left: 12px;
-  width: 14px;
-  height: 14px;
-  z-index: 2;
-  padding: 12px;
+  top: 15px;
+  left: 15px;
+  width: 45px;
+  height: 45px;
+}
+
+.product-detail-close a {
+  position: absolute;
+  top: 15px;
+  left: 15px;
 }
 
 .product-detail-close:hover {

@@ -2,8 +2,13 @@ body {
   overflow-y: scroll;
 }
 
+.product-detail-content {
+  display: grid;
+  place-items: center;
+
+}
+
 .product-detail {
-  position: absolute;
   box-sizing: border-box;
   right: 0;
   width: 360px;
