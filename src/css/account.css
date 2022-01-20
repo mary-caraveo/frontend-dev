@@ -2,7 +2,7 @@
   display: grid;
   place-items: center;
   width: 100%;
-  height: 100vh;
+  height: 90vh;
 }
 
 .form-container {
@@ -11,17 +11,11 @@
   width: 300px;
 }
 
-.logo {
-  width: 100px;
-  margin-bottom: 20px;
-  justify-self: center;
-  display: none;
-}
-
 .title {
   font-size: var(--lg);
   margin-bottom: 40px;
   text-align: start;
+  padding-top: 25px;
 }
 
 .form {
@@ -84,5 +78,13 @@
   .form {
     height: 100%;
     justify-content: space-between;
+  }
+
+  .login {
+    height: 0;
+  }
+
+  .form div {
+    padding-bottom: 15vh;
   }
 }
