@@ -2,7 +2,6 @@
   display: grid;
   place-items: center;
   width: 100%;
-  padding-top: 35px;
 }
 
 .title {
@@ -14,6 +13,7 @@
   display: grid;
   grid-template-rows: auto 1fr auto;
   width: 300px;
+  padding: 2% 0 5% 0;
 }
 
 .my-order-content {

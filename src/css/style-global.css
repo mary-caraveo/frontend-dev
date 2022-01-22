@@ -3,7 +3,7 @@
   grid-template-columns: repeat(auto-fill, 240px);
   gap: 26px;
   place-content: center;
-  padding-top: 22px;
+  padding: 2% 0;
 }
 
 .product-card {
@@ -50,4 +50,10 @@
   margin-top: 0;
   margin-bottom: 0;
   color: var(--very-light-pink);
+}
+
+@media (max-width: 640px) {
+  .cards-container {
+    padding: 6% 0;
+  }
 }

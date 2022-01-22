@@ -5,6 +5,7 @@ body {
 .product-detail-content {
   display: grid;
   place-items: center;
+  padding: 2% 5% 5% 5%;
 
 }
 
@@ -12,18 +13,18 @@ body {
   box-sizing: border-box;
   right: 0;
   width: 360px;
-  padding: 24px;
 }
 
-.title-container {
+.title-container{
   display: flex;
+  padding-bottom: 10%;
 }
 
 .title-container a:hover {
   transform: scale(1.2);
 }
 
-.title-container img {
+.title-arrow img {
   transform: rotate(180deg);
   margin-right: 14px;
   width: 12px;
@@ -32,6 +33,7 @@ body {
 .title {
   font-size: var(--lg);
   font-weight: bold;
+  margin: 0;
 }
 
 .shopping-cart {
@@ -116,5 +118,9 @@ body {
 @media (max-width: 640px) {
   .product-detail {
     width: 100%;
+  }
+
+  .product-detail-content {
+    padding: 5%;
   }
 }
