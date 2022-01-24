@@ -2,7 +2,7 @@
   display: grid;
   place-items: center;
   width: 100%;
-  height: 90vh;
+  height: 100vh;
 }
 
 .form-container {
@@ -101,13 +101,8 @@
     display: block;
   }
 
-  .form a {
-    padding-bottom: 0;
-  }
-
   .secondary-button {
     width: 300px;
-    position: absolute;
     bottom: 0;
     margin-bottom: 40px;
   }
