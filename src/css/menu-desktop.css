@@ -46,7 +46,6 @@
 .modal {
   background-color: var(--white);
   position: absolute;
-  top: 15px;
   right: 0;
   opacity: 0;
   pointer-events: none;
@@ -55,7 +54,7 @@
 #overlay:target {
   opacity: 1;
   pointer-events: auto;
-  margin: 3.1% 4%;
+  margin: 0 4%;
 }
 
 #home-modal {
